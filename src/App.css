@@ -42,8 +42,20 @@
   justify-content: center;
   margin-top: 30px;
   margin:50px;
-  
+
 }
 #lion{
   margin-right:50px;
+}
+.is-open{
+  background-color: green;
+  height:100px;
+  text-align: center;
+  justify-content: center;
+}
+.is-closed{
+  background-color: red;
+  height:100px;
+  text-align: center;
+  justify-content: center;
 }
