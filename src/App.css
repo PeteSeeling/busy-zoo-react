@@ -44,6 +44,12 @@
   margin:50px;
 
 }
+.animal-fight{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 #lion{
   margin-right:50px;
 }
@@ -58,4 +64,24 @@
   height:100px;
   text-align: center;
   justify-content: center;
+}
+.animal-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  height: 75px;
+margin-top:75px;
+
+}
+
+.animal{
+  display: flex;
+  margin:10px;
+
+}
+#animal-span{
+  justify-content: center;
+  height:200px;
+  width: 50px;;
 }
