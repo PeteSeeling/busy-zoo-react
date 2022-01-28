@@ -7,8 +7,6 @@ import AnimalList from './animallist';
 
 import { useState } from 'react';
 
-
-
 function App() {
 
   const [lionSize, setLionSize] = useState(10);
@@ -50,7 +48,6 @@ function App() {
         <button onClick={() => setAnimalsArray([...animalsArray, 'elephant'])}>Elephant</button>
 
       </div>
-
     </div>
 
   );}

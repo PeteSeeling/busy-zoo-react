@@ -6,10 +6,6 @@ export default function AnimalList(props) {
     <div className='animal-list'>
       {props.animalsArray.map((animal, i)=>
         <Animals key={animal, i} animal={animal} />)}
-
-
-
-
     </div>
   );
 }

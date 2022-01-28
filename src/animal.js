@@ -4,10 +4,5 @@ export default function Animals(props) {
     <span>{props.animal === 'rhino' ? '🦏' : ''}</span>
     <span>{props.animal === 'bear' ? '🐻' : ''}</span>
     <span>{props.animal === 'elephant' ? '🐘' : ''}</span>
-
-
-
-
-
   </div>;
 }
