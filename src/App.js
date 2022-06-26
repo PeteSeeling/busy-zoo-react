@@ -1,14 +1,9 @@
-
 import './App.css';
-import './App.css';
-
 import OpenSign from './sign';
 import AnimalList from './animallist';
-
 import { useState } from 'react';
 
 function App() {
-
   const [lionSize, setLionSize] = useState(10);
   const [rhinoSize, setRhinoSize] = useState(10);
   const [isOpen, setOpen] = useState(['open', 'closed']);
@@ -17,6 +12,7 @@ function App() {
   return (
     <div className='App'>
       <div className='animal-container'>
+
         <div className='animal-fight'>
           <img src="lion.jpg" width={lionSize * 10} />
           <div className='buttons' id='lion'>
@@ -46,9 +42,8 @@ function App() {
         <button onClick={() => setAnimalsArray([...animalsArray, 'rhino'])}>Rhino</button>
         <button onClick={() => setAnimalsArray([...animalsArray, 'bear'])}>Bear</button>
         <button onClick={() => setAnimalsArray([...animalsArray, 'elephant'])}>Elephant</button>
-
       </div>
     </div>
-
-  );}
+  );
+}
 export default App;
